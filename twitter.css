@@ -1,0 +1,91 @@
+.inputLogin {
+    border: none;   /* tirar a borda da caixa dos textos de login */
+    outline: none;     /* faz a borda sumir quando o componente está com foco ativo */
+    background-color: rgb(245, 248, 250);   /* pinto o fundo da caixa de texto com a cor do div */
+    width:100%;  /* a largura de preenchimento ao 100% do tamnho do div */
+    padding-bottom: 5px;
+    padding-top: 2px;
+}
+
+img {
+    width: 65px; 
+    height: 65px;
+    text-align: center;
+}
+
+.divInput {
+    background-color: rgb(245, 248, 250);  /* aplique a cor do div */
+    border-bottom: 2px solid rgb(134, 116, 101);
+    border-radius: 3px;
+    padding-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 15px;
+    font-weight: 400;
+    text-align:left;
+    margin-bottom: 20px;
+    margin-top:20px;
+}
+
+body {
+    background-size: cover;
+    max-width:600px;
+    margin: 0 auto;
+    align-content: center;
+    font-family:'Montserrat', sans-serif;
+    text-align: center;
+}
+
+label {
+    color: rgb(134, 116, 101);
+}
+
+button {
+    background-color: rgb(29, 161, 242);
+    opacity: 0.5;
+    color:rgb(245, 248, 250);
+    width: 100%;
+    border-radius: 23.5px;
+    border: none;
+    height: 47px;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.ponto {
+    padding-left:5px ;
+    padding-right: 5px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.divContainer {
+    margin-top: 20px;
+}
+
+h1 {
+    margin-top:30px;
+    margin-bottom: 10px;
+    font-size: 23px;
+    font-weight: bold;
+    color:rgb(20, 23, 26);
+}
+
+.divInput:focus-within label {
+    color: rgb(29, 161, 242);
+}
+
+.divInput:focus-within {
+    border-color: rgb(29, 161, 242);
+}
+
+button:hover {
+    opacity: 1;
+}
