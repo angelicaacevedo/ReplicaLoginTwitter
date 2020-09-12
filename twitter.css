@@ -1,8 +1,8 @@
 .inputLogin {
-    border: none;   /* tirar a borda da caixa dos textos de login */
-    outline: none;     /* faz a borda sumir quando o componente está com foco ativo */
-    background-color: rgb(245, 248, 250);   /* pinto o fundo da caixa de texto com a cor do div */
-    width:100%;  /* a largura de preenchimento ao 100% do tamnho do div */
+    border: none;   
+    outline: none;     
+    background-color: rgb(245, 248, 250);   
+    width:100%;  
     padding-bottom: 5px;
     padding-top: 2px;
 }
@@ -14,7 +14,7 @@ img {
 }
 
 .divInput {
-    background-color: rgb(245, 248, 250);  /* aplique a cor do div */
+    background-color: rgb(245, 248, 250); 
     border-bottom: 2px solid rgb(134, 116, 101);
     border-radius: 3px;
     padding-top: 5px;
